@@ -1,7 +1,7 @@
 # toxotools
 Tools for analysis of *Toxoplasma gondii* experimental datasets
 
-Toxotools is a selection of R scripts for interrogation of a variety of *Toxoplasma gondii) datasets. 
+Toxotools is a selection of R scripts for interrogation of a variety of *Toxoplasma gondii* datasets. 
 
 1. Next generation sequencing data analysis
 
