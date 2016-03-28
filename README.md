@@ -27,3 +27,9 @@ Cell cycle G1, Cell cycle SM, Stage, Localisation, GO Terms, KEGG pathways, LAMP
 **genelisthyper.R** 
 
 **genelisthyper.R** performs enrichment analysis against predefined gene sets (specified by **genelists.R**)
+
+
+- Conversion of versions
+ChIP-seq data
+ChIP-chip data
+
