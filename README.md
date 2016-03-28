@@ -14,7 +14,7 @@ Toxotools is a selection of R scripts for interrogation of a variety of Toxoplas
 **moreanno.R** is an R script that loads genome annotation data 
 
 
-2. Gene lists
+- Gene lists
 
  **genelists.R**
 
@@ -36,7 +36,7 @@ LAMP pathways
 
 Posttranslational modification proteomes
 
-3. Functional gene enrichment analysis
+- Functional gene enrichment analysis
 
 **genelisthyper.R** 
 
