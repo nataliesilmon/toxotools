@@ -1,6 +1,8 @@
 # toxotools
 Tools for analysis of *Toxoplasma gondii* experimental datasets
 
+Development: Kim Laboratory, Albert Einstein College of Medicine, Bronx, NY, USA
+
 *Toxoplasma gondii* is a protozoan parasite. Since it is not a common model organism, many tools often used for e.g. human or mouse datasets can not easily be applied to this organism and custom analysis methods need to be developed. Toxotools is a selection of R scripts designed to aid in the analysis of *Toxoplasma gondii* proteomic, next generation sequencing or array data. 
 
 1. Next generation sequencing data analysis
