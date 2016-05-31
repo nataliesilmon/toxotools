@@ -43,3 +43,6 @@ Set of BED files containing annotations of *Toxoplasma gondii* genome. Available
 
 GFF of genes with different expression levels in tachyzoites split by 5
 1,2,3,4,5 (low to high)
+
+Bowtie, Bowtie2 and bwa indexes
+
