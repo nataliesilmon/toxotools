@@ -19,7 +19,7 @@ Development: Natalie Silmon de Monerri, Kim Laboratory, Department of Medicine, 
 
  **genelists.R**
 
-**genelists.R** loads gene sets defined in Croken *et al* (2014) BMC Genomics as well as novel gene sets into R for downstream analysis. 
+**genelists.R** loads Toxoplasma gondii gene sets defined in Croken *et al* (2014) BMC Genomics as well as novel gene sets into R for downstream analysis. 
 
 Currently available gene sets are:
 
@@ -31,11 +31,14 @@ Cell cycle G1, Cell cycle SM, Stage, Localisation, GO Terms, KEGG pathways, LAMP
 
 **genelisthyper.R** performs enrichment analysis against predefined gene sets (specified by **genelists.R**)
 
-Genome annotation files
-Set of BED files containing annotations of *Toxoplasma gondii* genome. Available in ToxoDB version 26.
+**Genome annotation files**
+annotation.zip: Set of BED files containing annotations of *Toxoplasma gondii* genome. Currently available with version 26 ToxoDB IDs.
 - Introns
 - Exons
 - Intergenic regions
+- Promoters (defined as 1kb upstream of 5'UTR)
+- 5'UTR (defined from T. gondii RH strain RNA-seq)
+- 3'UTR (defined from T. gondii RH strain RNA-seq)
 - Genes active in tachyzoites 
 - Genes inactive in tachyzoites
 - Promoters of genes active in tachyzoites
@@ -44,5 +47,12 @@ Set of BED files containing annotations of *Toxoplasma gondii* genome. Available
 GFF of genes with different expression levels in tachyzoites split by 5
 1,2,3,4,5 (low to high)
 
-Bowtie, Bowtie2 and bwa indexes
+**Indexes for read alignments** 
+Derived from genome version 26 (ToxoDB)
+- Bowtie
+- Bowtie2
+- bwa
+
+
+
 
