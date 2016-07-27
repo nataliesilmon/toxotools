@@ -47,6 +47,12 @@ annotation.zip: Set of BED files containing annotations of *Toxoplasma gondii* g
 GFF of genes with different expression levels in tachyzoites split by 5
 1,2,3,4,5 (low to high)
 
+**Chain files**
+Chain files for conversion of T. gondii ME49 annotations from annotations in earlier versions to version 26.
+tgme49_6.1_To_tgme49_26.1.over.chain
+tgme49_9.0_To_tgme49_26.0.over.chain
+tgme49_11.0_To_tgme49_26.0.over.chain
+
 **Indexes for read alignments** 
 Derived from genome version 26 (ToxoDB)
 - Bowtie
