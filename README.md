@@ -10,31 +10,24 @@ This is an ongoing project and is being expanded to include *Plasmodium falcipar
 1. Next generation sequencing data analysis
 
 **getanno.R**
-
-**getanno.R** loads ToxoDB genome annotation data for *Toxoplasma gondii* and converts this to a RangedData object for downstream analysis with e.g. ChIPpeakAnno. User can specify which genome version to be used.
+Loads ToxoDB genome annotation data for *Toxoplasma gondii* and converts this to a RangedData object for downstream analysis with e.g. ChIPpeakAnno. User can specify which genome version to be used.
 
 **moreanno.R**
+Loads genome annotations (that are not available on ToxoDB) into RangedData objects for downstream analysis with e.g. ChIPpeakAnno. Annotations are in version 26.
 
-**moreanno.R** loads genome annotations (that are not available on ToxoDB) into RangedData objects for downstream analysis with e.g. ChIPpeakAnno. Annotations are in version 26.
+2. Gene lists for download and loading into R.
 
-- Gene lists
-
- **genelists.R**
-
-**genelists.R** loads Toxoplasma gondii gene sets defined in Croken *et al* (2014) BMC Genomics as well as novel gene sets into R for downstream analysis. 
-
+**genelists.R**
+Loads Toxoplasma gondii gene sets defined in Croken *et al* (2014) BMC Genomics as well as novel gene sets into R for downstream analysis. 
 Currently available gene sets are located in the file 'GENE SETS 2016 TXT.zip' and are in .txt format. **GMT files for use in GSEA analysis will be available soon.
-
 Cell cycle G1, Cell cycle SM, Stage, Localisation, GO Terms, KEGG pathways, LAMP pathways, Posttranslational modification proteomes
 
-- Functional gene enrichment analysis
-
+3. Functional gene enrichment analysis
 **genelisthyper.R** 
+Performs enrichment analysis against predefined gene sets (specified by **genelists.R**)
 
-**genelisthyper.R** performs enrichment analysis against predefined gene sets (specified by **genelists.R**)
-
-**Genome annotation files**
-annotation.zip: Set of BED files containing annotations of *Toxoplasma gondii* genome. Currently available with version 26 ToxoDB IDs.
+4. Genome annotation
+**annotation.zip**: Set of BED files containing annotations of *Toxoplasma gondii* genome. Currently available with version 26 ToxoDB IDs.
 - Introns
 - Exons
 - Intergenic regions
@@ -47,13 +40,13 @@ annotation.zip: Set of BED files containing annotations of *Toxoplasma gondii* g
 - Promoters of genes inactive in tachyzoites
 - GFF file containing annotation data for genes with different expression levels in tachyzoites split by 5 (1,2,3,4,5 (low to high))
 
-**Chain files**
-Chain files for conversion of T. gondii ME49 annotations from annotations in earlier versions to version 26.
+5. Conversion of *T. gondii* ME49 annotations between versions
+Available chain files for use with UCSC LiftOver tool:
 tgme49_6.1_To_tgme49_26.1.over.chain - converts annotation version 6.1 to version 26.1
 tgme49_9.0_To_tgme49_26.0.over.chain - converts annotation version 9.0 to version 26.0
 tgme49_11.0_To_tgme49_26.0.over.chain - converts annotation version 11.0 to 26.0
 
-**Indexes for read alignments** 
+6. Indexes for read alignments
 Derived from genome version 26 (ToxoDB)
 - Bowtie
 - Bowtie2
